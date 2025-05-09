@@ -6,7 +6,7 @@
   <title>Mening Birinchi Saytim</title>
   <style>
     body {
-      background-image: url('IMG_0048.jpeg'); /* Rasm nomi to‘g‘ridan-to‘g‘ri yozildi */
+      background-image: url('IMG_0048.jpeg');
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
@@ -14,22 +14,24 @@
       margin: 0;
       padding: 0;
       min-height: 100vh;
-      color: white; /* Matnni oq qilish, rasm ustida ko‘rinishi uchun */
-      text-shadow: 1px 1px 2px black; /* Matnga qoramtir soya */
+      color: white;
+      text-shadow: 1px 1px 2px black;
+      
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
-display: flex;
-justify -content: center;
-align-items: center;
-  
-  .container {
-    text-align: center;
-    background-color; rgba(255,255,255,0'850);/*arial*/
-    padding;30px;
-    border-radius:10px;
-  }
+
+    .container {
+      text-align: center;
+      background-color: rgba(0, 0, 0, 0.6); /* Yengil qoramtir fon */
+      padding: 30px;
+      border-radius: 10px;
+    }
+
     h1 {
-      margin-top: 50px;
       font-size: 2.5rem;
+      margin-top: 0;
     }
 
     a.button {
@@ -55,24 +57,28 @@ align-items: center;
   </style>
 </head>
 <body>
-  <div class ="container">
-  <h1>Assalomu alaykum!</h1>
-  <p>Bu mening birinchi HTML saytim.</p>
-  <!-- YouTube tugmasi -->
-  <a class="button" href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F124412008433507723%2F&psig=AOvVaw3jUkSCxxf7qlGcHm3-Z4z8&ust=1746911159981000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCIjM0aull40DFQAAAAAdAAAAABAE" target="_blank">RAsmni Ko'rish</a>
-<br><br>
-  <!-- Rasm ustiga bosilganda linkka olib boradi -->
-  <br><br>
-  <a href="https://example.com" target="_blank">
-    <img src="https://i.pinimg.com/736x/fa/e0/a1/fae0a12d4782270318aa01b864538b55.jpg" alt="rasm"/>
+  <div class="container">
+    <h1>Assalomu alaykum!</h1>
+    <p>Bu mening birinchi HTML saytim.</p>
+
+    <!-- Button -->
+    <a class="button" href="https://www.pinterest.com/pin/124412008433507723/" target="_blank">
+      Rasmni Ko‘rish
+    </a>
+
+    <!-- Rasm 1 -->
+    <br><br>
+    <a href="https://example.com" target="_blank">
+      <img src="https://i.pinimg.com/736x/fa/e0/a1/fae0a12d4782270318aa01b864538b55.jpg" alt="Rasm 1" />
+    </a>
+
+    <!-- Rasm 2 va tugma -->
+    <br><br>
+    <a class="button" href="https://youtube.com" target="_blank">유튜브 (YouTube)</a>
+    <br><br>
+    <img src="https://t3.ftcdn.net/jpg/04/74/05/94/360_F_474059464_qldYuzxaUWEwNTtYBJ44VN89ARuFktHW.jpg" alt="Rasm 2" />
   </div>
 </body>
-  <!-- Yana bitta rasm va link -->
-  <br><br>
-  <a class="button" href="https://youtube.com" target="_blank">유튜브 (YouTube)</a>
-  <br><br>
-  <img src="https://t3.ftcdn.net/jpg/04/74/05/94/360_F_474059464_qldYuzxaUWEwNTtYBJ44VN89ARuFktHW.jpg" alt="Rasm 2"/>
-
-</body>
 </html>
+
 
